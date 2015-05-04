@@ -1,22 +1,160 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="mystatus" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PWS-uc-dKS">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.1529411765" green="0.68235294120000001" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Uc-BA-ZHL">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.1529411765" green="0.68235294120000001" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XKv-TQ-dDa">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.1529411765" green="0.68235294120000001" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NwC-3D-XJc">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.1529411765" green="0.68235294120000001" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="0Uc-BA-ZHL" firstAttribute="width" secondItem="XKv-TQ-dDa" secondAttribute="width" id="2eK-bU-NnA"/>
+                            <constraint firstItem="0Uc-BA-ZHL" firstAttribute="leading" secondItem="PWS-uc-dKS" secondAttribute="trailing" constant="200" id="CwK-f1-Dub">
+                                <variation key="heightClass=regular" constant="100"/>
+                            </constraint>
+                            <constraint firstItem="XKv-TQ-dDa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="200" id="Fzb-Xu-grX">
+                                <variation key="heightClass=regular" constant="100"/>
+                            </constraint>
+                            <constraint firstItem="PWS-uc-dKS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="200" id="JFk-VS-mMS">
+                                <variation key="heightClass=regular" constant="100"/>
+                            </constraint>
+                            <constraint firstItem="0Uc-BA-ZHL" firstAttribute="height" secondItem="XKv-TQ-dDa" secondAttribute="height" id="LK5-90-Aog"/>
+                            <constraint firstItem="0Uc-BA-ZHL" firstAttribute="height" secondItem="NwC-3D-XJc" secondAttribute="height" id="NvK-Hh-tLR"/>
+                            <constraint firstItem="0Uc-BA-ZHL" firstAttribute="width" secondItem="NwC-3D-XJc" secondAttribute="width" id="QME-gQ-nx5"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="0Uc-BA-ZHL" secondAttribute="trailing" constant="200" id="VM6-I3-B1h">
+                                <variation key="heightClass=regular" constant="100"/>
+                            </constraint>
+                            <constraint firstAttribute="trailingMargin" secondItem="NwC-3D-XJc" secondAttribute="trailing" constant="200" id="VSq-g2-Yrl">
+                                <variation key="heightClass=regular" constant="100"/>
+                            </constraint>
+                            <constraint firstItem="PWS-uc-dKS" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="200" id="Vgo-RX-3Oc"/>
+                            <constraint firstItem="0Uc-BA-ZHL" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="200" id="eG9-rw-qC7"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="XKv-TQ-dDa" secondAttribute="bottom" constant="200" id="ech-GU-t8k">
+                                <variation key="heightClass=regular" constant="100"/>
+                            </constraint>
+                            <constraint firstItem="0Uc-BA-ZHL" firstAttribute="height" secondItem="PWS-uc-dKS" secondAttribute="height" id="erh-1m-xrP"/>
+                            <constraint firstItem="NwC-3D-XJc" firstAttribute="top" secondItem="0Uc-BA-ZHL" secondAttribute="bottom" constant="200" id="jHw-cS-7N0">
+                                <variation key="heightClass=regular" constant="100"/>
+                            </constraint>
+                            <constraint firstItem="0Uc-BA-ZHL" firstAttribute="width" secondItem="PWS-uc-dKS" secondAttribute="width" id="oZw-Rn-6wz"/>
+                            <constraint firstItem="XKv-TQ-dDa" firstAttribute="top" secondItem="PWS-uc-dKS" secondAttribute="bottom" constant="200" id="tMA-NH-TES">
+                                <variation key="heightClass=regular" constant="100"/>
+                            </constraint>
+                            <constraint firstAttribute="bottomMargin" secondItem="NwC-3D-XJc" secondAttribute="bottom" constant="200" id="vn3-Q5-UgZ">
+                                <variation key="heightClass=regular" constant="100"/>
+                            </constraint>
+                            <constraint firstItem="XKv-TQ-dDa" firstAttribute="top" secondItem="PWS-uc-dKS" secondAttribute="bottom" constant="200" id="yxv-tK-Wc0">
+                                <variation key="heightClass=regular" constant="100"/>
+                            </constraint>
+                            <constraint firstItem="NwC-3D-XJc" firstAttribute="top" secondItem="0Uc-BA-ZHL" secondAttribute="bottom" constant="200" id="zWR-o2-kmp">
+                                <variation key="heightClass=regular" constant="100"/>
+                            </constraint>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="PWS-uc-dKS"/>
+                                <exclude reference="0Uc-BA-ZHL"/>
+                                <exclude reference="XKv-TQ-dDa"/>
+                                <exclude reference="NwC-3D-XJc"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="JFk-VS-mMS"/>
+                                <exclude reference="Vgo-RX-3Oc"/>
+                                <exclude reference="Fzb-Xu-grX"/>
+                                <exclude reference="ech-GU-t8k"/>
+                                <exclude reference="tMA-NH-TES"/>
+                                <exclude reference="yxv-tK-Wc0"/>
+                                <exclude reference="2eK-bU-NnA"/>
+                                <exclude reference="CwK-f1-Dub"/>
+                                <exclude reference="LK5-90-Aog"/>
+                                <exclude reference="NvK-Hh-tLR"/>
+                                <exclude reference="QME-gQ-nx5"/>
+                                <exclude reference="VM6-I3-B1h"/>
+                                <exclude reference="eG9-rw-qC7"/>
+                                <exclude reference="erh-1m-xrP"/>
+                                <exclude reference="oZw-Rn-6wz"/>
+                                <exclude reference="VSq-g2-Yrl"/>
+                                <exclude reference="jHw-cS-7N0"/>
+                                <exclude reference="vn3-Q5-UgZ"/>
+                                <exclude reference="zWR-o2-kmp"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular">
+                            <mask key="subviews">
+                                <include reference="PWS-uc-dKS"/>
+                                <include reference="0Uc-BA-ZHL"/>
+                                <include reference="XKv-TQ-dDa"/>
+                                <include reference="NwC-3D-XJc"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="JFk-VS-mMS"/>
+                                <include reference="Vgo-RX-3Oc"/>
+                                <include reference="Fzb-Xu-grX"/>
+                                <include reference="ech-GU-t8k"/>
+                                <include reference="tMA-NH-TES"/>
+                                <include reference="yxv-tK-Wc0"/>
+                                <include reference="2eK-bU-NnA"/>
+                                <include reference="CwK-f1-Dub"/>
+                                <include reference="LK5-90-Aog"/>
+                                <include reference="NvK-Hh-tLR"/>
+                                <include reference="QME-gQ-nx5"/>
+                                <include reference="VM6-I3-B1h"/>
+                                <include reference="eG9-rw-qC7"/>
+                                <include reference="erh-1m-xrP"/>
+                                <include reference="oZw-Rn-6wz"/>
+                                <include reference="VSq-g2-Yrl"/>
+                                <include reference="jHw-cS-7N0"/>
+                                <include reference="vn3-Q5-UgZ"/>
+                                <include reference="zWR-o2-kmp"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
