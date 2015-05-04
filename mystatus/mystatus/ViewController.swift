@@ -11,6 +11,8 @@ import UIKit
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
+        Singleton.sharedInstance.number = 10
+        println(Singleton.sharedInstance.number);
         super.viewDidLoad()
         
 
@@ -21,7 +23,5 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
 

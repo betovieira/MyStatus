@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		757073B11AF7F3D200CD6CE7 /* PassingVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757073B01AF7F3D200CD6CE7 /* PassingVariable.swift */; };
+		757073B71AF7FC7E00CD6CE7 /* CustomStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757073B61AF7FC7E00CD6CE7 /* CustomStatusViewController.swift */; };
 		DB419E601AF7EAA600748E0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB419E5F1AF7EAA600748E0D /* AppDelegate.swift */; };
 		DB419E621AF7EAA600748E0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB419E611AF7EAA600748E0D /* ViewController.swift */; };
 		DB419E651AF7EAA600748E0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB419E631AF7EAA600748E0D /* Main.storyboard */; };
@@ -31,6 +32,7 @@
 
 /* Begin PBXFileReference section */
 		757073B01AF7F3D200CD6CE7 /* PassingVariable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassingVariable.swift; sourceTree = "<group>"; };
+		757073B61AF7FC7E00CD6CE7 /* CustomStatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomStatusViewController.swift; sourceTree = "<group>"; };
 		DB419E5A1AF7EAA600748E0D /* mystatus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mystatus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB419E5E1AF7EAA600748E0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB419E5F1AF7EAA600748E0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 				DB7A6AE21AF7F81200455285 /* images */,
 				DB419E5F1AF7EAA600748E0D /* AppDelegate.swift */,
 				DB419E611AF7EAA600748E0D /* ViewController.swift */,
+				757073B61AF7FC7E00CD6CE7 /* CustomStatusViewController.swift */,
 				DB419E631AF7EAA600748E0D /* Main.storyboard */,
 				757073B01AF7F3D200CD6CE7 /* PassingVariable.swift */,
 				DB419E661AF7EAA600748E0D /* Images.xcassets */,
@@ -237,6 +240,7 @@
 				DB7A6AEC1AF7FBFD00455285 /* StatusViewController.swift in Sources */,
 				757073B11AF7F3D200CD6CE7 /* PassingVariable.swift in Sources */,
 				DB419E621AF7EAA600748E0D /* ViewController.swift in Sources */,
+				757073B71AF7FC7E00CD6CE7 /* CustomStatusViewController.swift in Sources */,
 				DB419E601AF7EAA600748E0D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
