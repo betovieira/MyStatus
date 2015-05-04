@@ -52,6 +52,24 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="status legal" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wSh-sI-YDz">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="86"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="271" width="1024" height="126"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="assinatura legal" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vs3-C4-AMb">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="740" y="674" width="172" height="36"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -67,35 +85,43 @@
                             <mask key="subviews">
                                 <exclude reference="fH3-I7-zrq"/>
                                 <exclude reference="T80-9B-LAh"/>
+                                <exclude reference="wSh-sI-YDz"/>
+                                <exclude reference="vs3-C4-AMb"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="5Ec-yh-2BC"/>
-                                <exclude reference="Gn6-ab-RA2"/>
-                                <exclude reference="tqb-Ev-Sg8"/>
                                 <exclude reference="IUZ-2y-MEY"/>
                                 <exclude reference="MoI-3M-Wtz"/>
                                 <exclude reference="QuM-vj-pje"/>
                                 <exclude reference="yFJ-Pi-Pqd"/>
+                                <exclude reference="5Ec-yh-2BC"/>
+                                <exclude reference="Gn6-ab-RA2"/>
+                                <exclude reference="tqb-Ev-Sg8"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular">
                             <mask key="subviews">
                                 <include reference="fH3-I7-zrq"/>
                                 <include reference="T80-9B-LAh"/>
+                                <include reference="wSh-sI-YDz"/>
+                                <include reference="vs3-C4-AMb"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="5Ec-yh-2BC"/>
-                                <include reference="Gn6-ab-RA2"/>
-                                <include reference="tqb-Ev-Sg8"/>
                                 <include reference="IUZ-2y-MEY"/>
                                 <include reference="MoI-3M-Wtz"/>
                                 <include reference="QuM-vj-pje"/>
                                 <include reference="yFJ-Pi-Pqd"/>
+                                <include reference="5Ec-yh-2BC"/>
+                                <include reference="Gn6-ab-RA2"/>
+                                <include reference="tqb-Ev-Sg8"/>
                             </mask>
                         </variation>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="labelSignature" destination="vs3-C4-AMb" id="TKW-IU-84m"/>
+                        <outlet property="labelStatus" destination="wSh-sI-YDz" id="jnw-40-XnR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dob-gm-7Xa" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="ksK-5h-P41" userLabel="Exit" sceneMemberID="exit"/>
