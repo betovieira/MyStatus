@@ -10,31 +10,8 @@ import UIKit
 
 class StatusViewController: UIViewController {
 
-    @IBOutlet var buttonOnOff: UIButton!
-    
-    var on = 1
-    let imageOn = UIImage(named: "green-button.png") as UIImage!
-    let imageOff = UIImage(named: "button_red.png") as UIImage!
-    
-    @IBAction func buttonClicked(sender: UIButton) {
-        if(on == 1)
-        {
-            buttonOnOff.setImage(imageOff, forState: .Normal)
-            
-            on = 0
-        }
-        else if(on == 0)
-        {
-            buttonOnOff.setImage(imageOn, forState: .Normal)
-            
-            on = 1
-        }
-    }
     override func viewDidLoad() {
         super.viewDidLoad()
-        buttonClicked(buttonOnOff)
-        
-        
         // Do any additional setup after loading the view.
     }
 

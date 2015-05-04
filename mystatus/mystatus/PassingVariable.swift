@@ -8,7 +8,9 @@
 
 import Foundation
 class Singleton {
-    var number : Int!
+    var name : String!
+    var customText : String!
+    var buttonType : Int!
     class var sharedInstance: Singleton {
         struct Static {
             static var instance: Singleton?

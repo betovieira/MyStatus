@@ -10,9 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBAction func unwindToViewController (segue : UIStoryboardSegue) {}
+
     override func viewDidLoad() {
-        Singleton.sharedInstance.number = 10
-        println(Singleton.sharedInstance.number);
+        Singleton.sharedInstance.name = "Jobson"
+        println(Singleton.sharedInstance.name);
         super.viewDidLoad()
         
 
