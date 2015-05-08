@@ -14,8 +14,6 @@
 		DB419E671AF7EAA600748E0D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB419E661AF7EAA600748E0D /* Images.xcassets */; };
 		DB419E6A1AF7EAA600748E0D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB419E681AF7EAA600748E0D /* LaunchScreen.xib */; };
 		DB419E761AF7EAA600748E0D /* mystatusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB419E751AF7EAA600748E0D /* mystatusTests.swift */; };
-		DB7A6AE41AF7F8B100455285 /* green-button.png in Resources */ = {isa = PBXBuildFile; fileRef = DB7A6AE31AF7F8B100455285 /* green-button.png */; };
-		DB7A6AE61AF7F8BC00455285 /* button_red.png in Resources */ = {isa = PBXBuildFile; fileRef = DB7A6AE51AF7F8BC00455285 /* button_red.png */; };
 		DB7A6AEC1AF7FBFD00455285 /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7A6AEB1AF7FBFD00455285 /* StatusViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,8 +39,6 @@
 		DB419E6F1AF7EAA600748E0D /* mystatusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mystatusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB419E741AF7EAA600748E0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB419E751AF7EAA600748E0D /* mystatusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mystatusTests.swift; sourceTree = "<group>"; };
-		DB7A6AE31AF7F8B100455285 /* green-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green-button.png"; sourceTree = "<group>"; };
-		DB7A6AE51AF7F8BC00455285 /* button_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_red.png; sourceTree = "<group>"; };
 		DB7A6AEB1AF7FBFD00455285 /* StatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,7 +81,6 @@
 		DB419E5C1AF7EAA600748E0D /* mystatus */ = {
 			isa = PBXGroup;
 			children = (
-				DB7A6AE21AF7F81200455285 /* images */,
 				DB419E5F1AF7EAA600748E0D /* AppDelegate.swift */,
 				DB419E611AF7EAA600748E0D /* ViewController.swift */,
 				DB7A6AEB1AF7FBFD00455285 /* StatusViewController.swift */,
@@ -121,15 +116,6 @@
 				DB419E741AF7EAA600748E0D /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		DB7A6AE21AF7F81200455285 /* images */ = {
-			isa = PBXGroup;
-			children = (
-				DB7A6AE31AF7F8B100455285 /* green-button.png */,
-				DB7A6AE51AF7F8BC00455285 /* button_red.png */,
-			);
-			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,10 +199,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB419E651AF7EAA600748E0D /* Main.storyboard in Resources */,
-				DB7A6AE41AF7F8B100455285 /* green-button.png in Resources */,
 				DB419E6A1AF7EAA600748E0D /* LaunchScreen.xib in Resources */,
 				DB419E671AF7EAA600748E0D /* Images.xcassets in Resources */,
-				DB7A6AE61AF7F8BC00455285 /* button_red.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -13,10 +13,9 @@ class ViewController: UIViewController {
     @IBAction func unwindToViewController (segue : UIStoryboardSegue) {}
 
     override func viewDidLoad() {
-        Singleton.sharedInstance.name = "Jobson"
-        println(Singleton.sharedInstance.name);
+        var teste = Custom(status: "Paulo")
+        println(teste.myStatus)
         super.viewDidLoad()
-        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -30,25 +29,25 @@ class ViewController: UIViewController {
     @IBAction func getButton1(sender: UIButton) {
         Singleton.sharedInstance.buttonType = 1;
         Singleton.sharedInstance.customText = "I'm developing";
-        Singleton.sharedInstance.name = nameTextField.text;
+        Singleton.sharedInstance.name = nameTextField.text.uppercaseString;
     }
     
     @IBAction func getButton2(sender: UIButton) {
         Singleton.sharedInstance.buttonType = 2;
         Singleton.sharedInstance.customText = "I'm free";
-        Singleton.sharedInstance.name = nameTextField.text;
+        Singleton.sharedInstance.name = nameTextField.text.uppercaseString;
     }
     
     @IBAction func getButton3(sender: UIButton) {
         Singleton.sharedInstance.buttonType = 3;
         Singleton.sharedInstance.customText = "I'm in bathroom";
-        Singleton.sharedInstance.name = nameTextField.text;
+        Singleton.sharedInstance.name = nameTextField.text.uppercaseString;
     }
     
     @IBAction func getButton4(sender: UIButton) {
         Singleton.sharedInstance.buttonType = 4;
         Singleton.sharedInstance.customText = "Custom";
-        Singleton.sharedInstance.name = nameTextField.text;        
+        Singleton.sharedInstance.name = nameTextField.text.uppercaseString;
     }
 }
 
